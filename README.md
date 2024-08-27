@@ -7,8 +7,8 @@ The model is trained on the MNIST dataset and can predict digits drawn by the us
 
 The project consists of the following main files:
 
-1. **`cnn_model.py`**: This file contains the code for building, training, and saving the CNN model using the MNIST dataset.
-2. **`cnn_model_pretrained.h5`**: This is the saved pre-trained CNN model file.
+1. **`CNN_model.py`**: This file contains the code for building, training, and saving the CNN model using the MNIST dataset.
+2. **`CNN_model_pretrained.h5`**: This is the saved pre-trained CNN model file.
 3. **`digits_app.py`**: This is the application file that provides a GUI for users to draw digits, which are then recognized by the CNN model.
 
 ## Getting Started
@@ -34,13 +34,13 @@ pip install keras tensorflow numpy pillow pywin32
 
 1. **Training the Model**: 
 
-   The model is trained on the MNIST dataset using the `cnn_model.py` script. If you wish to retrain the model, you can run this script:
+   The model is trained on the MNIST dataset using the `CNN_model.py` script. If you wish to retrain the model, you can run this script:
 
    \`\`\`bash
-   python cnn_model.py
+   python CNN_model.py
    \`\`\`
 
-   This will save a new model as `cnn_model_pretrained.h5`.
+   This will save a new model as `CNN_model_pretrained.h5`.
 
 2. **Running the GUI Application**:
 
@@ -50,7 +50,7 @@ pip install keras tensorflow numpy pillow pywin32
    python digits_app.py
    \`\`\`
 
-   The application will open a window where you can draw a digit using your mouse, and it will display the recognized digit.
+   The application will open a window where you can draw a digit using your mouse and it will display the recognized digit.
 
 ## How It Works
 
