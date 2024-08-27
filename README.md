@@ -72,8 +72,10 @@ pip install keras tensorflow numpy pillow pywin32
 
    In the application, the user can draw a digit on the canvas. The drawn image is captured, resized, and converted to grayscale before being fed into the model. The model then predicts the digit and displays the result.
 
-## Screenshots 
-![Drawing and Prediction Example](![Screenshot (375)](https://github.com/user-attachments/assets/2a8491e6-700e-453e-acb7-a6085b3a996b)
+## Examples 
+(![Screenshot (375)](https://github.com/user-attachments/assets/2a8491e6-700e-453e-acb7-a6085b3a996b)
+)
+(![Screenshot (376)](https://github.com/user-attachments/assets/70a700e9-606f-43bb-97fc-cc167c0210fb)
 )
 
 
