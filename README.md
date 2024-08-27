@@ -28,6 +28,7 @@ You can install the necessary packages using pip:
 
 ```bash
 pip install keras tensorflow numpy pillow pywin32
+```
 
 
 ### Running the Project
@@ -36,9 +37,9 @@ pip install keras tensorflow numpy pillow pywin32
 
    The model is trained on the MNIST dataset using the `CNN_model.py` script. If you wish to retrain the model, you can run this script:
 
-   \`\`\`bash
+   ```bash
    python CNN_model.py
-   \`\`\`
+   ```
 
    This will save a new model as `CNN_model_pretrained.h5`.
 
@@ -46,9 +47,9 @@ pip install keras tensorflow numpy pillow pywin32
 
    The `digits_app.py` script launches a simple GUI where you can draw digits and get predictions. To run the application, use:
 
-   \`\`\`bash
+   ```bash
    python digits_app.py
-   \`\`\`
+   ```
 
    The application will open a window where you can draw a digit using your mouse and it will display the recognized digit.
 
