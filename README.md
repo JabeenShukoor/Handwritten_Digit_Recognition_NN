@@ -26,9 +26,9 @@ To run this project, you need to have the following libraries installed:
 
 You can install the necessary packages using pip:
 
-\`\`\`bash
+```bash
 pip install keras tensorflow numpy pillow pywin32
-\`\`\`
+
 
 ### Running the Project
 
